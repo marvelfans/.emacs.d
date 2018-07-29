@@ -2,6 +2,11 @@
 ;;; Commentary: My Emacs 配置入口
 ;; Code:
 
+
+;; emacs shell模式出现乱码
+(ansi-color-for-comint-mode-on)
+
+
 ;; 忽略提示声音
 (setq ring-bell-function "ignore")
 (setq visiable-bell t)

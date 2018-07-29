@@ -1,0 +1,19 @@
+# 说明
+记录一些自己使用emacs的常用方法
+
+* 高频操作进行键位绑定
+  * <F2> : C-x C-f
+  * <F3> : C-x b
+  * <F4> : C-x C-s
+  * Alt - n/p : 上/下滚动滑屏
+  * C-x [/] : buffer的最上和最下处
+* python
+  * python 生成etags 和 跳转
+    * find ./app -regex ".*\.py" | xargs etags
+    * Alt - . : 跳到定义处
+    * Alt - , : 回到上一个tag处
+  * flycheck
+    * C-c l : 展示检测出的错误
+* shell
+  * M-x shell : 开启一个frame来执行shell
+  * M-! [command] : 执行一个shell命令，如果有返回值，会在一个frame中展示
