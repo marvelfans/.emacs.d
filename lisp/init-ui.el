@@ -9,7 +9,7 @@
 
 
 ;; 主题
-(load-theme 'tsdh-dark)
+;; (load-theme 'tsdh-dark)
 
 
 ;; 行号
@@ -41,6 +41,12 @@
 (setq blink-cursor-mode 1)
 (setq cursor-type "bar")
 
+
+;; 不要菜单栏
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+(horizontal-scroll-bar-mode -1)
 
 
 

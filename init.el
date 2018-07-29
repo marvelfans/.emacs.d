@@ -1,6 +1,6 @@
 ;;; package --- Summary
 ;;; Commentary: My Emacs 配置入口
-;; Code:
+;;; Code:
 
 
 ;; Added by Package.el.  This must come before configurations of
