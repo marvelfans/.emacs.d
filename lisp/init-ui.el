@@ -13,6 +13,7 @@
 
 
 ;; 行号
+(setq linum-format "%d ")
 (global-linum-mode t)
 
 
