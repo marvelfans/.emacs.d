@@ -14,4 +14,4 @@
 
 
 ## others
-* markdown	# markdown支持
+* markdown-mode	# markdown支持
