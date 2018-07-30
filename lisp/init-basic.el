@@ -34,6 +34,11 @@
 (setq inhibit-startup-message t)
 
 
+;; 设置使用shell的类型
+(setq shell-file-name "/usr/bin/zsh")
+
+
+
 (provide 'init-basic)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; init-basic.el ends here
