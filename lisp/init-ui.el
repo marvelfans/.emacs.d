@@ -3,13 +3,13 @@
 ;; Code:
 
 
+;; 主题
+(load-theme 'tsdh-dark)
+
+
 ;; 高亮当前行
 (require 'hl-line)
 (global-hl-line-mode t)
-
-
-;; 主题
-;; (load-theme 'tsdh-dark)
 
 
 ;; 行号
