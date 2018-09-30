@@ -4,8 +4,7 @@
 
 
 ;; 主题
-(load-theme 'tsdh-dark)
-
+;; (load-theme 'tsdh-dark)
 
 ;; 高亮当前行
 (require 'hl-line)
@@ -13,6 +12,7 @@
 
 
 ;; 行号
+(setq linum-format "%4d| ")
 (global-linum-mode t)
 
 
