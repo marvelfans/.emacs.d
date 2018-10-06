@@ -46,6 +46,8 @@
 ### 其它
 * 自己的键位设置
 
+### use-package
+* [github: use-package](https://github.com/jwiegley/use-package)
 
 
 </font>
