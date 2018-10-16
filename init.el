@@ -40,6 +40,10 @@
 (global-auto-revert-mode t)          ;; revert mode
 (add-hook 'after-init-hook 'global-company-mode)   ;; use tab for complete
 
+;;;; Code Setting
+(prefer-coding-system 'utf-8)        ;; default coding
+(setq default-buffer-file-coding-system 'utf-8)      ;; set write coding
+
 
 ;;;; key binding
 (global-unset-key (kbd "C-t")) 
