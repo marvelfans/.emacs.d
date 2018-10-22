@@ -40,6 +40,14 @@
 (global-auto-revert-mode t)          ;; revert mode
 (add-hook 'after-init-hook 'global-company-mode)   ;; use tab for complete
 
+
+;;;; key binding
+(global-unset-key (kbd "C-t"))
+(global-set-key (kbd "C-t") 'xref-pop-marker-stack)
+(global-set-key (kbd "C-]") 'xref-find-definitions)
+(global-set-key (kbd "M-<up>") 'scroll-up)
+(global-set-key (kbd "M-<down>") 'scroll-down)
+
 ;;;; Code Setting
 (prefer-coding-system 'utf-8)        ;; default coding
 (setq default-buffer-file-coding-system 'utf-8)      ;; set write coding
@@ -65,7 +73,7 @@
 (provide-theme 'solarized-dark)
 
 (require 'hl-line)                ;; highlight current line
-(global-hl-line-mode t)           ;; highlight current line
+;; (global-hl-line-mode t)           ;; highlight current line
 (setq linum-format "%4d| ")       ;; line format
 (global-linum-mode t)             ;; show line number
 (setq column-number-mode t)       ;; display current column number
